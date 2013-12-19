@@ -11,7 +11,7 @@
 }
 
 html {
-    background: black url('../img/bg.png') no-repeat center;
+    background: black url('../img/bg.png') no-repeat center top;
 }
 
 html, body {
@@ -20,7 +20,7 @@ html, body {
 
 body {
     color: white;
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue', Georgia, serif;
     font-size: 30px;
     line-height: 1em;
 }
@@ -55,25 +55,62 @@ h1 {
     margin-bottom: 0;
 }
 
-p {
-    font-size: 0.6em;
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 /* ---------------------- */
 
-ol li{
+ul li{
     list-style-type: none;
-    float: left;
-    margin: 0 0.8em;
+    display: inline;
 }
 
+ul.flat{
+    text-align: center;
+    padding: 0;
+    margin: 0 0 1em;
+}
+ul.flat li {
+    margin: 0 0.5em;
+    font-size: 0.6em;
+    text-transform: lowercase;
+}
+
+ul.social {
+    text-align: center;
+    padding: 0;
+}
+ul.social li {
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+}
+ul li.facebook {
+    background: url('../img/02_facebook.png') no-repeat center;
+}
+ul li.twitter {
+    background: url('../img/01_twitter.png') no-repeat center;
+}
+ul li.youtube {
+    background: url('../img/03_youtube.png') no-repeat center;
+}
+ul li.soundcloud {
+    background: url('../img/24_soundcould.png') no-repeat center;
+}
+ul li.tumblr {
+    background: url('../img/15_tumblr.png') no-repeat center;
+}
+ul li.instagram {
+    background: url('../img/10_instagram.png') no-repeat center;
+}
 /* ---------------------- */
 
-.nav {
-    width: 460px;
-    height: 1em;
-    margin: 0 auto;
-}
-.head {
-    margin: 2em 0 1em;
+.logo{
+    background: url('../img/logo.png') no-repeat center center;
+    height: 130px;
 }
