@@ -101,26 +101,32 @@ ul.social {
 }
 ul.social li {
     display: inline-block;
-    height: 64px;
-    width: 64px;
+    height: 32px;
+    width: 32px;
 }
 ul li.facebook {
     background: url('../img/02_facebook.png') no-repeat center;
+    background-size: 100%;
 }
 ul li.twitter {
     background: url('../img/01_twitter.png') no-repeat center;
+    background-size: 100%;
 }
 ul li.youtube {
     background: url('../img/03_youtube.png') no-repeat center;
+    background-size: 100%;
 }
 ul li.soundcloud {
     background: url('../img/24_soundcould.png') no-repeat center;
+    background-size: 100%;
 }
 ul li.tumblr {
     background: url('../img/15_tumblr.png') no-repeat center;
+    background-size: 100%;
 }
 ul li.instagram {
     background: url('../img/10_instagram.png') no-repeat center;
+    background-size: 100%;
 }
 
 ul.bookings {
