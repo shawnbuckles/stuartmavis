@@ -85,24 +85,25 @@ ul li{
 ul.flat{
     text-align: center;
     padding: 0;
-    margin: 0 0 2.5em;
+    margin: 0 0 0em;
 }
 ul.flat li {
     margin: 0 1.5em;
     font-size: 0.6em;
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-shadow: 0px 1px 0px black;
 }
 
 ul.social {
     text-align: center;
     padding: 0;
-    margin-bottom: 0;
+    margin: 0.8em 0 1em;
+
 }
 ul.social li {
     display: inline-block;
-    height: 32px;
-    width: 32px;
+    height: 42px;
+    width: 42px;
 }
 ul li.facebook {
     background: url('../img/02_facebook.png') no-repeat center;
@@ -146,5 +147,12 @@ ul.bookings li {
 
 .logo{
     background: url('../img/logo.png') no-repeat center center;
-    height: 130px;
+    height: 150px;
+}
+.nav {
+    width: 60%;
+    margin: 0 auto;
+    padding: .2em 0 .3em 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
