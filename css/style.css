@@ -84,6 +84,9 @@ a:hover {
     background: #3E6169 url('../img/bg_head.png') repeat;
     padding: 0 0 2em 0;
 }
+.video {
+    margin-top: 140px;
+}
 .bio {
     background: #6DABBA url('../img/bg_bio.png') repeat;
     padding: 3em 0;
@@ -100,11 +103,6 @@ a:hover {
 .footer {
     background: #333F37;
     height: 1.5em;
-}
-.puller {
-    display: block;
-    clear: both;
-    height: 1px;
 }
 
 .logo {
